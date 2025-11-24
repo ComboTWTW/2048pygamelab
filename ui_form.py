@@ -179,6 +179,11 @@ class Ui_Window(object):
         self.RestartButton = QPushButton(self.board)
         self.RestartButton.setObjectName(u"RestartButton")
         self.RestartButton.setGeometry(QRect(760, 470, 201, 41))
+        self.bestScore = QLabel(self.board)
+        self.bestScore.setObjectName(u"bestScore")
+        self.bestScore.setGeometry(QRect(610, 150, 211, 30))
+        self.bestScore.setMaximumSize(QSize(16777215, 16777215))
+        self.bestScore.setFont(font1)
 
         self.retranslateUi(Window)
 
@@ -205,5 +210,6 @@ class Ui_Window(object):
         self.cell_1_3.setText(QCoreApplication.translate("Window", u"TextLabel", None))
         self.scoreLabel.setText(QCoreApplication.translate("Window", u"Score: 0", None))
         self.RestartButton.setText(QCoreApplication.translate("Window", u"Restart Game", None))
+        self.bestScore.setText(QCoreApplication.translate("Window", u"Best: 0", None))
     # retranslateUi
 

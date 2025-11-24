@@ -439,6 +439,31 @@
      <string>Restart Game</string>
     </property>
    </widget>
+   <widget class="QLabel" name="bestScore">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>150</y>
+      <width>211</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Best: 0</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>
