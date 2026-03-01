@@ -4,6 +4,7 @@ from PySide6.QtCore import QFile, Qt, QObject, QEvent
 from game import Game2048  # Импорт класса игры 2048
 
 
+
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
